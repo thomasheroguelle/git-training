@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.box-div {
+    width: 700x;
+}
+
+.column {
+    flex-direction: column;
+}
+
+span {
+    font-style: italic;
+    color: red;
+}
+
+body {
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
