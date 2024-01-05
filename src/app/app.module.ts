@@ -8,6 +8,7 @@ import { HomeComponent } from './components/home/home.component';
 import { BackbuttonComponent } from './components/backbutton/backbutton.component';
 import { AmendComponent } from './components/amend/amend.component';
 import { GraphComponent } from './components/graph/graph.component';
+import { CherrypickComponent } from './components/cherrypick/cherrypick.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { GraphComponent } from './components/graph/graph.component';
     HomeComponent,
     BackbuttonComponent,
     AmendComponent,
-    GraphComponent
+    GraphComponent,
+    CherrypickComponent
   ],
   imports: [
     BrowserModule,
