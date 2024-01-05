@@ -9,6 +9,7 @@ import { BackbuttonComponent } from './components/backbutton/backbutton.componen
 import { AmendComponent } from './components/amend/amend.component';
 import { GraphComponent } from './components/graph/graph.component';
 import { CherrypickComponent } from './components/cherrypick/cherrypick.component';
+import { SquashComponent } from './components/squash/squash.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CherrypickComponent } from './components/cherrypick/cherrypick.componen
     BackbuttonComponent,
     AmendComponent,
     GraphComponent,
-    CherrypickComponent
+    CherrypickComponent,
+    SquashComponent
   ],
   imports: [
     BrowserModule,
