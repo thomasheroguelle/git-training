@@ -10,6 +10,7 @@ import { AmendComponent } from './components/amend/amend.component';
 import { GraphComponent } from './components/graph/graph.component';
 import { CherrypickComponent } from './components/cherrypick/cherrypick.component';
 import { SquashComponent } from './components/squash/squash.component';
+import { DeletecommitComponent } from './components/deletecommit/deletecommit.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SquashComponent } from './components/squash/squash.component';
     AmendComponent,
     GraphComponent,
     CherrypickComponent,
-    SquashComponent
+    SquashComponent,
+    DeletecommitComponent
   ],
   imports: [
     BrowserModule,
