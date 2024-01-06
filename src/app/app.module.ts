@@ -12,6 +12,9 @@ import { CherrypickComponent } from './components/cherrypick/cherrypick.componen
 import { SquashComponent } from './components/squash/squash.component';
 import { DeletecommitComponent } from './components/deletecommit/deletecommit.component';
 import { RenamecommitComponent } from './components/renamecommit/renamecommit.component';
+import { GeneralComponent } from './components/general/general.component';
+import { DeletebranchComponent } from './components/deletebranch/deletebranch.component';
+import { StashComponent } from './components/stash/stash.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { RenamecommitComponent } from './components/renamecommit/renamecommit.co
     CherrypickComponent,
     SquashComponent,
     DeletecommitComponent,
-    RenamecommitComponent
+    RenamecommitComponent,
+    GeneralComponent,
+    DeletebranchComponent,
+    StashComponent
   ],
   imports: [
     BrowserModule,

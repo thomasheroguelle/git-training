@@ -8,6 +8,8 @@ import { CherrypickComponent } from './components/cherrypick/cherrypick.componen
 import { SquashComponent } from './components/squash/squash.component';
 import { DeletecommitComponent } from './components/deletecommit/deletecommit.component';
 import { RenamecommitComponent } from './components/renamecommit/renamecommit.component';
+import { GeneralComponent } from './components/general/general.component';
+import { StashComponent } from './components/stash/stash.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -18,6 +20,8 @@ const routes: Routes = [
   { path: 'squash', component: SquashComponent },
   { path: 'deletecommit', component: DeletecommitComponent },
   { path: 'renamecommit', component: RenamecommitComponent },
+  { path: 'general', component: GeneralComponent },
+  { path: 'stash', component: StashComponent },
 ];
 
 
