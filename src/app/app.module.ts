@@ -11,6 +11,7 @@ import { GraphComponent } from './components/graph/graph.component';
 import { CherrypickComponent } from './components/cherrypick/cherrypick.component';
 import { SquashComponent } from './components/squash/squash.component';
 import { DeletecommitComponent } from './components/deletecommit/deletecommit.component';
+import { RenamecommitComponent } from './components/renamecommit/renamecommit.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { DeletecommitComponent } from './components/deletecommit/deletecommit.co
     GraphComponent,
     CherrypickComponent,
     SquashComponent,
-    DeletecommitComponent
+    DeletecommitComponent,
+    RenamecommitComponent
   ],
   imports: [
     BrowserModule,

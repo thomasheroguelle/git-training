@@ -6,6 +6,8 @@ import { AmendComponent } from './components/amend/amend.component';
 import { GraphComponent } from './components/graph/graph.component';
 import { CherrypickComponent } from './components/cherrypick/cherrypick.component';
 import { SquashComponent } from './components/squash/squash.component';
+import { DeletecommitComponent } from './components/deletecommit/deletecommit.component';
+import { RenamecommitComponent } from './components/renamecommit/renamecommit.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -14,6 +16,8 @@ const routes: Routes = [
   { path: 'graph', component: GraphComponent },
   { path: 'cherrypick', component: CherrypickComponent },
   { path: 'squash', component: SquashComponent },
+  { path: 'deletecommit', component: DeletecommitComponent },
+  { path: 'renamecommit', component: RenamecommitComponent },
 ];
 
 
