@@ -1,0 +1,25 @@
+<h1>To deploy an existing project on Netlify : </h1>
+<section>
+    <div class="box-div">
+        <h2>On the project : </h2>
+
+        <p>In the project , create a file to the project root named <span>netlify.toml</span></p>
+        <p>Add in the file : </p>
+        <span>[[redirects]] <br>
+            from = "/*" <br>
+            to = "/index.html" <br>
+            status = 200
+        </span>
+        <p>Deploy the project with : </p>
+        <ul>
+            <li> <span>ng build</span></li>
+            <li> <span>npm run build</span></li>
+        </ul>
+        <h2>On Netlify : </h2>
+        <a href="https://app.netlify.com/start">Add New Site > Import An Existing Project </a>
+        <p>Select the project with GitHub</p>
+        <p>For the deploy Project Page, follow these steps : </p>
+        <img src="assets\imgs\netlifydeployment.PNG" alt="">
+        <h2>Website deployed 😍</h2>
+    </div>
+</section>

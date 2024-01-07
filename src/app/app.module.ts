@@ -15,6 +15,7 @@ import { RenamecommitComponent } from './components/renamecommit/renamecommit.co
 import { GeneralComponent } from './components/general/general.component';
 import { DeletebranchComponent } from './components/deletebranch/deletebranch.component';
 import { StashComponent } from './components/stash/stash.component';
+import { NetlifyComponent } from './components/netlify/netlify.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { StashComponent } from './components/stash/stash.component';
     RenamecommitComponent,
     GeneralComponent,
     DeletebranchComponent,
-    StashComponent
+    StashComponent,
+    NetlifyComponent
   ],
   imports: [
     BrowserModule,

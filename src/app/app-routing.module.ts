@@ -10,6 +10,7 @@ import { DeletecommitComponent } from './components/deletecommit/deletecommit.co
 import { RenamecommitComponent } from './components/renamecommit/renamecommit.component';
 import { GeneralComponent } from './components/general/general.component';
 import { StashComponent } from './components/stash/stash.component';
+import { NetlifyComponent } from './components/netlify/netlify.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -22,6 +23,7 @@ const routes: Routes = [
   { path: 'renamecommit', component: RenamecommitComponent },
   { path: 'general', component: GeneralComponent },
   { path: 'stash', component: StashComponent },
+  { path: 'netlify', component: NetlifyComponent },
 ];
 
 
