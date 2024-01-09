@@ -11,6 +11,7 @@ import { RenamecommitComponent } from './components/renamecommit/renamecommit.co
 import { GeneralComponent } from './components/general/general.component';
 import { StashComponent } from './components/stash/stash.component';
 import { NetlifyComponent } from './components/netlify/netlify.component';
+import { DeletebranchComponent } from './components/deletebranch/deletebranch.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -20,6 +21,7 @@ const routes: Routes = [
   { path: 'cherrypick', component: CherrypickComponent },
   { path: 'squash', component: SquashComponent },
   { path: 'deletecommit', component: DeletecommitComponent },
+  { path: 'deletebranch', component: DeletebranchComponent },
   { path: 'renamecommit', component: RenamecommitComponent },
   { path: 'general', component: GeneralComponent },
   { path: 'stash', component: StashComponent },
